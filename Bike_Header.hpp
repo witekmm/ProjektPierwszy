@@ -4,6 +4,7 @@
 #include <iostream>
 #include <ctime>
 #include <cstdlib>
+#include <assert.h>
 
 using namespace std;
 
@@ -15,7 +16,9 @@ class Bike{
         int age;
 
     public:
+        Bike();
         Bike(string a1, double a2, int rame, int wheel, int years);
+        Bike(Bike &bk);
         //operators
         void operator++(int);
         void operator++();
@@ -34,6 +37,8 @@ class Bike{
         void set_rame_size(int help);
         void set_wheel_size(int help);
         void setAll(string help_name,double help_price,int help_wheel,int help_rame,int help_age);
+
+        void view();
 
 };
 

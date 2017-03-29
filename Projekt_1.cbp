@@ -35,6 +35,7 @@
 		<Unit filename="Bike.cpp" />
 		<Unit filename="Bike_Header.hpp" />
 		<Unit filename="Functions.cpp" />
+		<Unit filename="Funktionheader.hpp" />
 		<Unit filename="Shop.cpp" />
 		<Unit filename="Shop_Header.hpp" />
 		<Unit filename="main.cpp" />

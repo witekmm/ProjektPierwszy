@@ -1,18 +1,50 @@
 # depslib dependency file v1.0
-1489956639 source:c:\users\michal\desktop\hhh\projekt_1\bike.cpp
+1490644108 source:c:\users\michal\desktop\hhh\projekt_1\bike.cpp
 	"Bike_Header.hpp"
 
-1490030565 c:\users\michal\desktop\hhh\projekt_1\bike_header.hpp
+1490223207 er.hpp"
+
+1490644210 c:\users\michal\desktop\hhh\projekt_1\bike_header.hpp
+	<iostream>
+	<ctime>
+	<cstdlib>
+	<assert.h>
+
+1446667744 
+
+1490810199 source:c:\users\michal\desktop\hhh\projekt_1\functions.cpp
+	"Funktionheader.hpp"
+
+1490814534 c:\users\michal\desktop\hhh\projekt_1\shop_header.hpp
+	"Bike_Header.hpp"
+
+1490814554 source:c:\users\michal\desktop\hhh\projekt_1\main.cpp
+	"Funktionheader.hpp"
+
+1490806858 source:c:\users\michal\desktop\hhh\projekt_1\shop.cpp
+	"Shop_Header.hpp"
+
+1490283003 source:/home/mion/s/168/mwitkows/Desktop/Projekt_1/Bike.cpp
+	"Bike_Header.hpp"
+
+1490283932 /home/mion/s/168/mwitkows/Desktop/Projekt_1/Bike_Header.hpp
 	<iostream>
 	<ctime>
 	<cstdlib>
 
-1489956579 source:c:\users\michal\desktop\hhh\projekt_1\functions.cpp
+1489956579 source:/home/mion/s/168/mwitkows/Desktop/Projekt_1/Functions.cpp
 	"Shop_Header.hpp"
 
-1490030565 c:\users\michal\desktop\hhh\projekt_1\shop_header.hpp
+1490283726 /home/mion/s/168/mwitkows/Desktop/Projekt_1/Shop_Header.hpp
 	"Bike_Header.hpp"
 
-1446667744 source:c:\users\michal\desktop\hhh\projekt_1\main.cpp
+1490224239 source:/home/mion/s/168/mwitkows/Desktop/Projekt_1/main.cpp
 	<iostream>
+	"Shop_Header.hpp"
+
+1490283726 source:/home/mion/s/168/mwitkows/Desktop/Projekt_1/Shop.cpp
+	"Shop_Header.hpp"
+
+1490806858 c:\users\michal\desktop\hhh\projekt_1\funktionheader.hpp
+	"Shop_Header.hpp"
 
