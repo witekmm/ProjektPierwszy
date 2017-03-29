@@ -8,22 +8,6 @@ Bike::Bike(string a1, double a2, int rame, int wheel, int years){
             age = years;
 }
 
-Bike::Bike(){
-        name = "empty_place";
-        price = 0;
-        rame_size = 0;
-        wheel_size = 0;
-        age = 0;
-}
-
-Bike::Bike(Bike &bk){
-    name = bk.getName();
-    price = bk.getPrice();
-    wheel_size = bk.get_wheel_size();
-    rame_size = bk.get_rame_size();
-    age = bk.getAge();
-}
-
 void Bike::operator++(int){
     price+=100;
     cout<<"The price of the bike was increased by 100$"<<endl;
@@ -45,7 +29,6 @@ double Bike::operator+(Bike &bk2){ // Operator + polega na obliczeniu ceny 2 row
         cout<<"Price for those 2 bikes is "<<0.8*price+0.8*bk2.price<<endl;
         return 0.8*price+0.8*bk2.price;
     }
-
 
 string Bike::getName(){
         return name;
@@ -114,13 +97,4 @@ void Bike::setAll(string help_name,double help_price,int help_wheel,int help_ram
         age=help_age;
         return;
 
-}
-
-void Bike::view(){
-    cout<<"|\t\t|"<<name<<"|"<<endl;
-    cout<<"|Price = "<<price<<endl;
-    cout<<"|Rame size = "<<rame_size<<endl;
-    cout<<"|Wheel size = "<<wheel_size<<endl;
-    cout<<"|Age = "<<age<<endl;
-    return;
 }
